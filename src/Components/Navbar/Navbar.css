@@ -1,0 +1,70 @@
+.header {
+    background-color: #FFFFFF;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.header .logo {
+    width: 152.72px;
+    height: 51.89px;
+}
+
+.nav-link{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: -0.01em;
+color: #627193 !important;
+margin:0 20px;
+
+}
+
+.nav-link:hover{
+    color: #30458F !important;
+}
+
+.get-started-btn{
+    width: 130px;
+height: 50px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+letter-spacing: -0.01em;
+border: none;
+color: #FFFFFF;
+background: #30458F;
+box-shadow: 0px 15px 30px -10px rgba(48, 69, 143, 0.16);
+border-radius: 10px;
+}
+
+.navbar-toggler {
+    border: none !important;
+}
+
+
+.navbar-toggler img{
+    width: 23.51px;
+    height: 20.9px;
+}
+
+
+@media all and (max-width:768px) {
+    .header .logo{
+        width: 115.57px;
+height: 39.27px;
+    }
+
+    .header{
+        height: 72.21px;
+    }
+
+    .get-started-btn{
+        margin-left: 20px;
+    }
+}

@@ -1,0 +1,100 @@
+.what-we-do {
+    padding: 0 45px;
+}
+
+.what-we-do-heading {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 58px;
+    letter-spacing: -0.02em;
+    color: #181820;
+}
+
+.what-we-do-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    color: #627193;
+
+}
+
+.what-we-do-contents {
+    gap: 68px;
+}
+
+.talk-with-an-expert-btn {
+    width: 275.41px;
+    height: 51.47px;
+    background: #30458F;
+    box-shadow: 0px 15px 30px -10px rgba(48, 69, 143, 0.16);
+    border-radius: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+margin-bottom: 35px;
+margin-top: 23px;
+    text-align: center;
+    letter-spacing: -0.01em;
+    border: none;
+    color: #FFFFFF;
+}
+
+.hr-line{
+    background: linear-gradient(90.03deg, rgba(48, 69, 143, 0.6) -17.76%, rgba(1, 174, 155, 0.6) 102.63%);
+border-radius: 2.49323px;
+width: 117.07px;
+height: 1.5px;
+margin: 0 auto;
+margin-bottom: 13px;
+}
+
+@media all and (max-width:1024px) {
+    .what-we-do {
+        padding: 0;
+    }
+    .what-we-do-contents {
+        gap: 20px;
+    }
+    .what-we-do-text {
+        font-size: 16px;
+        line-height: 28px
+    }
+}
+
+@media all and (max-width:767px) {
+    .what-we-do-contents {
+        gap: 0px;
+    }
+
+    .what-we-do-heading {
+        text-align: center;
+        font-size: 28px;
+        line-height: 58px;
+    }
+
+    .what-we-do-text {
+        text-align: center;
+        font-size: 14px;
+        line-height: 20px
+    }
+
+    .what-we-do-contents {
+        flex-direction: column;
+    }
+
+    .what-we-do {
+        padding: 0;
+    }
+}
+
+@media all and (max-width:425px) {
+    .what-we-do-left {
+        padding: 0 54px;
+    }
+}
