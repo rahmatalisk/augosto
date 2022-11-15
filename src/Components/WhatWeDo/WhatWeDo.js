@@ -1,6 +1,7 @@
 import React from 'react';
 import frame from '../../Images/Frame.png'
 import './WhatWeDo.css'
+import handshake from '../../Images/Group 32.svg'
 
 const WhatWeDo = () => {
     return (
@@ -11,12 +12,16 @@ const WhatWeDo = () => {
                 </div>
                 <div className=" what-we-do-right ">
                     <h2 className='what-we-do-heading m-0'>What we do</h2>
-                    <div className="d-md-none hr-line">
+                    <div className=" hr-line">
 
                     </div>
                     <p className='what-we-do-text m-0'>We look into cultural and behavioral challenges to provide tools for new ideas and approaches, promoting concrete change in organisations.</p>
                     <div className='d-flex justify-content-center d-md-none'>
                     <button className='talk-with-an-expert-btn  '>Talk with an expert</button>
+                    </div>
+                    <div className='d-flex justify-content-center d-md-block d-none'>
+                        <img src={handshake} alt="" className='ms-5' />
+                    
                     </div>
                 </div>
             </div>

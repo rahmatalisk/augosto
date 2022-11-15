@@ -10,7 +10,8 @@ const Banner = () => {
                 <div className="row ">
                     <div className="col-12 col-md-6">
                         <h1 className="banner-heading">Make sense <br /> Make <span>Action</span></h1>
-                        <p className="banner-text">Steering culture to Promote change</p>
+                        <p className="banner-text d-none d-md-block">Steering culture to <br /> Promote change</p>
+                        <p className="banner-text  d-md-none">Steering culture to Promote change</p>
                         <button className='banner-btn d-none d-md-block'>Talk with an expert</button>
                     </div>
                     <div className="col-12 col-md-6 banner-right">

@@ -48,9 +48,8 @@ margin-top: 23px;
 .hr-line{
     background: linear-gradient(90.03deg, rgba(48, 69, 143, 0.6) -17.76%, rgba(1, 174, 155, 0.6) 102.63%);
 border-radius: 2.49323px;
-width: 117.07px;
-height: 1.5px;
-margin: 0 auto;
+width: 200.55px;
+height: 3px;
 margin-bottom: 13px;
 }
 
@@ -90,6 +89,14 @@ margin-bottom: 13px;
 
     .what-we-do {
         padding: 0;
+    }
+    .hr-line{
+        background: linear-gradient(90.03deg, rgba(48, 69, 143, 0.6) -17.76%, rgba(1, 174, 155, 0.6) 102.63%);
+    border-radius: 2.49323px;
+    width: 117.07px;
+    height: 1.5px;
+    margin: 0 auto;
+    margin-bottom: 13px;
     }
 }
 

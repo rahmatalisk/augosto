@@ -1,0 +1,170 @@
+.we-focus-on {
+    background-image: url("../../Images/focus-bg.png");
+    padding-top: 62px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 251px;
+}
+
+
+
+.we-focus-on-text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 58px;
+    letter-spacing: -0.02em;
+
+    color: #181820;
+}
+
+.card-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.01em;
+    margin: 23px 0 15px 0;
+    color: #00005C;
+}
+
+.we-focus-on-contents .card-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: -0.01em;
+
+    color: #627193;
+}
+
+.we-focus-on-contents {
+    padding-top: 74px;
+    padding-bottom: 295px;
+}
+
+.swiper-pagination {
+    position: relative;
+    margin-top: 32px;
+}
+
+.we-focus-on-item .card {
+    height: 300.03px;
+    padding: 40px 10px;
+}
+
+.we-focus-on-contents .card img {
+    width: 51px;
+    height: 51px;
+}
+
+.what-you-think {
+    margin-top: -170px;
+    background: #F4F7FF;
+border: 1px solid #BEDEDB;
+border-radius: 40px;
+overflow: hidden;
+
+}
+
+
+.what-you-think .card{
+    padding: 24px 130px;
+}
+
+
+.what-you-think h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 58px;
+    letter-spacing: -0.02em;
+    color: #181820;
+
+}
+
+.what-you-think p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 3px;
+
+    text-align: center;
+    letter-spacing: -0.01em;
+
+    color: #627193;
+}
+
+.what-you-think .card img {
+    width: 51px;
+    height: 43px;
+    margin-bottom: 27px;
+}
+
+@media all and (max-width:767px) {
+    .what-you-think {
+        margin-top: -34px;
+    }
+
+    .we-focus-on-contents {
+        padding-top: 32px;
+        padding-bottom: 81px;
+    }
+
+    .we-focus-on {
+        padding-top: 23px;
+        margin-bottom: 81px;
+    }
+
+    .we-focus-on-text {
+        text-align: center;
+        font-size: 28px;
+        line-height: 58px;
+    }
+
+    .card-title {
+        text-align: center;
+        font-size: 22px;
+        line-height: 33px;
+        margin: 21px 0 11px 0;
+    }
+
+    .we-focus-on-contents .card-text {
+        text-align: center;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .what-you-think h1 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .what-you-think p {
+        font-size: 14px;
+        line-height: 22px;
+        margin: 19px 0 0px 0 !important;
+    }
+
+    .what-you-think .card img {
+        width: 31px;
+        height: 27px;
+        margin-bottom: 19px;
+    }
+    .what-you-think .card{
+        padding: 42px 20px;
+    }
+
+    .what-you-think {
+    border-radius: 20px;
+    overflow: hidden;
+    
+    }
+}
