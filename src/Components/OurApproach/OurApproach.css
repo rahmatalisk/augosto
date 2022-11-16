@@ -1,0 +1,140 @@
+.our-approach {
+    margin-top: 143px;
+    margin-bottom: 129px;
+}
+
+.our-approach-text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 58px;
+    letter-spacing: -0.02em;
+    color: #181820;
+    margin: 0;
+    margin-bottom: 13px;
+}
+
+.our-approach-contents {
+   /* justify-content: space-between !important; */
+   gap: 130px;
+}
+
+.text-bold-p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    margin-top: 37px;
+    letter-spacing: -0.01em;
+    color: #272931;
+}
+
+.approach-card {
+    padding: 25px 0px 20px 0;
+    /* position: relative; */
+}
+
+.approach-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+    color: #627193;
+}
+
+.img-div {
+    width: 77.96px;
+    height: 77.96px;
+    background: #01AE9B;
+    border: 5px solid #FFFFFF;
+    border-radius: 100%;
+    box-shadow: 0px 28px 60px rgba(0, 0, 0, 0.06);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: -40px;
+}
+
+.img-div img {
+    width: 40.83px;
+    /* height: 40.39px; */
+}
+
+
+.card-heading {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.01em;
+
+    color: #00005C;
+}
+
+.card-text-right {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: -0.01em;
+    color: #627193;
+
+}
+
+.approach-card{
+    background: #FFFFFF;
+border: 1px solid #EDEDED;
+border-radius: 10px;
+margin-bottom: 13px;
+}
+
+@media all and (max-width:767px) {
+    .our-approach {
+        margin-top: 81px;
+        margin-bottom: 74px;
+        margin-bottom: 3px;
+    }
+
+    .our-approach-text {
+        font-size: 28px;
+        line-height: 58px;
+        text-align: center;
+    }
+
+    .text-bold-p {
+        font-size: 12px;
+        line-height: 20px;
+        margin-top: 13px;
+    }
+
+    .approach-text {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .card-heading {
+        font-size: 18px;
+        line-height: 27px
+    }
+
+    .card-text-right {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .img-div{
+        width: 50.02px;
+height: 50.02px;
+margin-left: 15px;
+    }
+
+    .img-div img{
+        width: 20px;
+    }
+}

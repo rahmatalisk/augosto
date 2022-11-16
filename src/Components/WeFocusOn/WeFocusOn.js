@@ -12,8 +12,8 @@ import { Pagination, Navigation } from "swiper";
 
 const WeFocusOn = () => {
     return (
-        <div className='we-focus-on '>
-            <div className="container">
+        <div className='we-focus-on-container '>
+            <div className="container we-focus-on">
                 <h1 className="we-focus-on-text">We Focus On</h1>
                 <div className=" hr-line"></div>
 
@@ -86,15 +86,16 @@ const WeFocusOn = () => {
                 </div>
 
 
-                <div className="what-you-think">
-                    <Card className="text-center border-0">
-                        <Card.Body className='p-0'>
-                            <img src={cout} alt="" />
-                            <h1 className='m-0'>Not what you think, What you experience.</h1>
-                            <p className='m-0'>When you ask people to tell stories, and then ask them about those stories, you are getting interpretations rather than opinions.</p>
-                        </Card.Body>
-                    </Card>
-                </div>
+
+            </div>
+            <div className="what-you-think container p-0">
+                <Card className="text-center border-0">
+                    <Card.Body className='p-0'>
+                        <img src={cout} alt="" />
+                        <h1 className='m-0'>Not what you think, What you experience.</h1>
+                        <p className='m-0'>When you ask people to tell stories, and then ask them about those stories, you are getting interpretations rather than opinions.</p>
+                    </Card.Body>
+                </Card>
             </div>
 
         </div>
