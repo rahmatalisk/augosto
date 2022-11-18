@@ -61,10 +61,10 @@ color: #627193;
 }
 .what-we-do-item{
     max-width: 276.06px;
-/* height: 291.69px; */
+/* height: 591.69px; */
 }
 .what-we-do-item > .card{
-    padding: 20px 15px 50px !important;
+    padding: 20px 2px 50px !important;
     background-color: white;
 }
 

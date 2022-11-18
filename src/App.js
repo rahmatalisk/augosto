@@ -8,6 +8,8 @@ import OurApproach from './Components/OurApproach/OurApproach';
 import HowWeDo from './Components/HowWeDo/HowWeDo';
 import NoMoreGuess from './Components/NoMoreGues/NoMoreGues';
 import BestTime from './Components/BestTime/BestTime';
+import WhatClientsSay from './Components/WhatClientsSay/WhatClientsSay';
+import Footer from './Components/Footer/Footer';
 
 
 
@@ -22,6 +24,9 @@ function App() {
      <HowWeDo></HowWeDo>
      <NoMoreGuess></NoMoreGuess>
      <BestTime></BestTime>
+     <WhatClientsSay></WhatClientsSay>
+     <NoMoreGuess></NoMoreGuess>
+     <Footer></Footer>
     </div>
   );
 }

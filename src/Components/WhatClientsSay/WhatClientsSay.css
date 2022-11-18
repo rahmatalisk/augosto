@@ -1,0 +1,104 @@
+
+
+
+.what-our-clients-says{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 42px;
+line-height: 63px;
+letter-spacing: -0.02em;
+color: #181820;
+}
+
+.what-is-clients-say-p{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: -0.01em;
+margin: 0;
+color: #627193;
+}
+
+.what-is-clients-say-card-title{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 27px;
+letter-spacing: -0.01em;
+color: #181820;
+
+}
+.what-is-clients-says-contents{
+    margin: 21px 0;
+}
+
+.what-is-clients-says-item{
+    padding:50px 40px;
+    background: #FFFFFF;
+border: 1px solid #BEDEDB;
+box-shadow: 0px 60px 80px -32px rgba(0, 0, 0, 0.09);
+border-radius: 15px;
+}
+
+.what-is-clients-says-card-text{
+    font-family: 'Inter';
+font-style: italic;
+font-weight: 500;
+font-size: 16px;
+line-height: 28px;
+color: #627193;
+
+}
+.customer-img{
+    width: 44px;
+    margin-right: 15px;
+}
+
+.customer-name{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+color: #181820;
+}
+
+.customer-profession{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+letter-spacing: -0.01em;
+
+color: #627193;
+}
+
+
+@media all and (max-width:767px) {
+    .what-is-clients-say-card-title{
+        font-size: 16px;
+line-height: 24px;
+    }
+
+    .what-is-clients-says-card-text{
+        font-size: 14px;
+line-height: 20px;
+    }
+
+    .what-is-clients-say-p{
+        font-size: 14px;
+line-height: 20px
+    }
+
+    .what-our-clients-says{
+        font-size: 28px;
+line-height: 42px;
+    }
+}

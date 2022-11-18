@@ -1,0 +1,31 @@
+
+
+.address-text{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 130%;
+
+color: black;
+}
+
+.address-text span{
+    font-weight: 400;
+    color: #222237;
+}
+
+.address-2{
+    margin-left: 50px;
+}
+
+@media all and (max-width:767px) {
+    .address-2{
+        margin: 0;
+    }
+
+    .address-text{
+        font-size: 14px;
+line-height: 130%;
+    }
+}
