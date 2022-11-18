@@ -7,7 +7,7 @@ import cout from '../../Images/Group (2).svg'
 import { Card } from 'react-bootstrap';
 import { Swiper, SwiperSlide } from "swiper/react";
 
-import { Pagination, Navigation } from "swiper";
+import { Pagination } from "swiper";
 
 
 const WeFocusOn = () => {

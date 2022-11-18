@@ -5,6 +5,9 @@ import Menu from './Components/Navbar/Navbar';
 import Banner from './Components/Banner/Banner';
 import WeFocusOn from './Components/WeFocusOn/WeFocusOn';
 import OurApproach from './Components/OurApproach/OurApproach';
+import HowWeDo from './Components/HowWeDo/HowWeDo';
+import NoMoreGuess from './Components/NoMoreGues/NoMoreGues';
+import BestTime from './Components/BestTime/BestTime';
 
 
 
@@ -16,6 +19,9 @@ function App() {
      <Banner></Banner>
      <WeFocusOn></WeFocusOn>
      <OurApproach></OurApproach>
+     <HowWeDo></HowWeDo>
+     <NoMoreGuess></NoMoreGuess>
+     <BestTime></BestTime>
     </div>
   );
 }
