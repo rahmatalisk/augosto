@@ -19,6 +19,18 @@ color: black;
     margin-left: 50px;
 }
 
+.footer-bottom-text{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+border-top: 1px solid #C9D4FB;
+padding-top: 25px;
+margin-top: 48px;
+color: #222237;
+}
+
 @media all and (max-width:767px) {
     .address-2{
         margin: 0;
@@ -27,5 +39,16 @@ color: black;
     .address-text{
         font-size: 14px;
 line-height: 130%;
+    }
+
+    .footer-bottom-text{
+        font-weight: 400;
+font-size: 12px;
+line-height: 24px;
+padding-top: 20px;
+    }
+
+    .footer-contents{
+        flex-direction: column-reverse;
     }
 }
